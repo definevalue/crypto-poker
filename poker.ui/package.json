@@ -21,7 +21,7 @@
     "jquery": "^2.2.4",
     "long": "^4.0.0",
     "moment": "^2.22.0",
-    "protobufjs": "^6.8.6",
+    "protobufjs": "^6.11.2",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest"
   },
