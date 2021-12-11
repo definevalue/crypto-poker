@@ -20,7 +20,7 @@
     "font-awesome": "^4.7.0",
     "jquery": "^2.2.4",
     "long": "^4.0.0",
-    "moment": "^2.22.0",
+    "moment": "^2.29.1",
     "protobufjs": "^6.8.6",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest"
