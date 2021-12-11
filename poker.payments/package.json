@@ -6,7 +6,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.18.0",
+    "@dashevo/dashcore-lib": "^0.19.26",
     "bip32": "^2.0.6",
     "bitcoinjs-lib": "^5.2.0",
     "blockcypher": "^0.2.0",
