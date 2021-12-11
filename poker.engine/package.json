@@ -15,7 +15,7 @@
     "bitcoinjs-lib": "^5.1.4",
     "body-parser": "^1.17.2",
     "bs58check": "^2.1.2",
-    "buffer": "^5.0.6",
+    "buffer": "^5.7.1",
     "case-insensitive": "^1.0.0",
     "cors": "^2.8.4",
     "decimal.js": "^10.0.0",
