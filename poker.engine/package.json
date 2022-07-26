@@ -7,9 +7,9 @@
     "test": "test"
   },
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.17.9",
+    "@dashevo/dashcore-lib": "^0.18.12",
     "@sendgrid/mail": "^6.3.1",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "bigi": "^1.4.2",
     "bip32": "^2.0.3",
     "bitcoinjs-lib": "^5.1.4",
@@ -22,19 +22,20 @@
     "dotenv": "^6.0.0",
     "ethereumjs-wallet": "^0.6.3",
     "express": "^4.17.1",
-    "express-validator": "^5.2.0",
-    "lodash": "^4.17.11",
-    "log4js": "^3.0.5",
+    "express-validator": "^6.5.0",
+    "lodash": "^4.17.21",
+    "log4js": "^6.4.0",
     "maxmind": "^2.12.0",
     "md5": "^2.2.1",
-    "mongodb": "^2.2.33",
+    "mongodb": "^3.1.13",
     "promise-queue-timeout": "^2.2.5",
-    "protobufjs": "^6.8.6",
-    "qrcode": "^1.3.3",
+    "protobufjs": "^6.11.3",
+    "qrcode": "^1.3.4",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
-    "validator": "^10.8.0",
-    "ws": "^6.0.0"
+    "validator": "^13.7.0",
+    "ws": "^6.2.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/bcrypt": "^2.0.0",
@@ -57,9 +58,12 @@
   },
   "scripts": {
     "test": "mocha --require source-map-support/register --recursive -w ./build/poker.engine/test",
-    "start": "node --require source-map-support/register ./build/poker.engine/src/app.js"
+    "start": "node --require source-map-support/register ./build/poker.engine/src/app.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
